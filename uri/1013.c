@@ -18,5 +18,5 @@ int  main()
         max=bc;
     }
 
-    printf("%d eh o maior",max);
+    printf("%d eh o maior\n",max);
 }
