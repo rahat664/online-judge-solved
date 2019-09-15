@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main() {
-   int a,b;
+   int a,b,SOMA;
    scanf("%d %d",&a,&b);
-   printf("X = %d\n",a+b);
+   SOMA=a+b;
+   printf("SOMA = %d\n",SOMA);
     return 0;
 }
+
