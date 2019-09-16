@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n100, n50, n20, n10, n5, n2;
+    int no100, no50, n20, n10, n5, n2;
     int m1, m50, m25, m10, m05, m01;
     double n;
 
@@ -15,9 +15,9 @@ int main() {
     }
 
 
-    n100 = notas/100;
+    no100 = notas/100;
     notas = notas%100;
-    n50 = notas/50;
+    no50 = notas/50;
     notas = notas%50;
     n20 = notas/20;
     notas = notas%20;
@@ -42,8 +42,8 @@ int main() {
 
     printf("NOTAS:\n");
 
-    printf("%d nota(s) de R$ 100.00\n", n100);
-    printf("%d nota(s) de R$ 50.00\n", n50);
+    printf("%d nota(s) de R$ 100.00\n", no100);
+    printf("%d nota(s) de R$ 50.00\n", no50);
     printf("%d nota(s) de R$ 20.00\n", n20);
     printf("%d nota(s) de R$ 10.00\n", n10);
     printf("%d nota(s) de R$ 5.00\n", n5);
