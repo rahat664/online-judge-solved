@@ -1,21 +1,30 @@
-#include<iostream>
-#include<math.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-    while(true)
+    int t;
+    cin>>t;
+    while(t--)
     {
-        int t,i,n;
-        for(i=0;i<t;i++)
+        double H,A;
+        cin>>H>>A;
+
+        if(H*H<4*A)
         {
-            int n;
+            cout<<"-1\n";
+        }
+        else
+        {
+            double a=(sqrt(H*H+4*A)+sqrt(H*H-4*A))/2;
 
-            cin >> n;
+            double b=(sqrt(H*H+4*A)-sqrt(H*H-4*A))/2;
 
+            printf("%.6lf %.6lf %.6lf\n",min(a,b),max(a,b),H);
 
         }
-cout << "LCM(n) = " << boost::math::lcm(n) << endl;
 
     }
+
+    return 0;
 }
