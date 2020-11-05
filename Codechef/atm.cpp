@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main()         x
+int main()
 {
        double bank_balance,current_balance;
        int withdrawal_amount;
