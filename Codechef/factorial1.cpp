@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int testcase, number, factorial = 1;
+	unsigned long long int testcase, number, factorial = 1;
 	cin >> testcase;
 	while(testcase--)
 	{
