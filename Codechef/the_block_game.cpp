@@ -1,24 +1,30 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() 
 {
-    int a=0,i=0,rev=0,cp=0;
-    cin >> i;
-    while(i--)
+    int t;
+    cin >> t;
+    while(t--)
     {
-        rev=0;
-        cin >> a;
-        cp=a;
-        while(cp!=0)
+        int n;
+        cin >> n;
+        int rev=0;
+        int temp = n;
+        while(n > 0)
         {
-            rev=rev*10+(cp%10);
-            cp=cp/10;
+            int dig = n % 10;
+            rev = rev*10 + dig;
+            n /= 10;
         }
-        if(a==rev)
-            cout << "wins" << endl;
+        if(temp == rev)
+        {
+            cout<<"wins"<<endl;
+        }
         else
-            cout << "losses" << endl;
+        {
+            cout<<"loses"<<endl;
+        }
     }
 	return 0;
 }
