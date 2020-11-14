@@ -9,9 +9,8 @@ int main()
     {
 	    long long num1, num2;
     	cin >> num1 >> num2;
-    	int gcd = __gcd(num1, num2);
-        int lcm = num1*num2/gcd;
-        cout << gcd << ' ' << lcm << endl;
+    	int Gcd = __gcd(num1, num2);
+        cout << Gcd << ' ' << (num1*num2)/Gcd << endl;
     }
 	return 0;
 }
