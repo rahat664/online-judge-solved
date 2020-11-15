@@ -22,9 +22,7 @@ int main()
         swap(&num1,&num2);
         cout << "values after swapping:" << endl;
         cout << "num1: " << num1 << endl << "num2: " << num2 << endl;
-
-    return 0;
     }
 
-    
+        return 0;
 }
