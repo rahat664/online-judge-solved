@@ -25,7 +25,6 @@ int main()
                 {
                    j = j/2;
                 }
-
                 else
                 {
                    j = (3*j)+1;
